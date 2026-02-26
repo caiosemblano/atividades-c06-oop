@@ -16,7 +16,7 @@ public class Main {
     int thirdHour = teclado.nextInt();
 
     System.out.println("O total de lanches consumidos foi: " + (firstHour+secondHour+thirdHour));
-    System.out.println("A media de lanches consumidos por hora foi: " + (firstHour+secondHour+thirdHour)/3);
+    System.out.println("A media de lanches consumidos por hora foi: " + (firstHour+secondHour+thirdHour)/3.0);
 
 
 
