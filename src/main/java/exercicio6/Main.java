@@ -9,10 +9,9 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         int chute;
-        int randomNum;
+        int randomNum = rand.nextInt(10) + 1;;
         do {
             System.out.print("Digite um número de 1 a 10: ");
-            randomNum = rand.nextInt(10) + 1;
             chute = input.nextInt();
         } while (chute != randomNum);
 
