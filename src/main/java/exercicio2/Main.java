@@ -13,7 +13,5 @@ public class Main {
         final int receitaTotal = (inteirasVendidas * valorInteira + meiasVendidas * valorMeia);
         System.out.println("Total arrecadado foi: " + receitaTotal);
         System.out.println("Media por ingresso vendido: " + (receitaTotal/(inteirasVendidas+meiasVendidas)));
-
-
     }
 }
