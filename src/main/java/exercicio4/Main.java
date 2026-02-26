@@ -9,7 +9,10 @@ public class Main {
         System.out.print("Informe a nota da NPA: ");
         final short NPA =  input.nextShort();
 
-        if(NPA < 60) {
+        if(NPA < 30){
+            System.out.println("O aluno foi reprovado.");
+        }
+        else if(NPA < 60) {
             System.out.print("Informe a nota da NFA: ");
             final short NFA = input.nextShort();
 
@@ -20,8 +23,12 @@ public class Main {
                 System.out.println("O aluno foi aprovado com sucesso!");
             }
         }
-        else {
+        else if(NPA <= 100) {
             System.out.println("O aluno foi aprovado com sucesso!");
         }
+        else {
+            System.out.println("Digite um nota valida.");
+        }
+
     }
 }
