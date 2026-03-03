@@ -1,4 +1,4 @@
-package exercicio7;
+package ExerciciosDeSala.exercicio7;
 
 import java.util.Random;
 import java.util.Scanner;
