@@ -5,6 +5,14 @@ public class Main {
         Player player =  new Player();
         Gun gun = new Gun();
 
+        player.setNome("Caio");
+        player.setHealth(100);
+        player.setGun(gun);
+        System.out.println(player.getGun());
+
+
+        
+
 
     }
 }

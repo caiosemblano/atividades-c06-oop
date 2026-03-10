@@ -34,11 +34,11 @@ public class Player {
         this.nome = nome;
     }
 
-    public int getPoints() {
+    public int getHealth() {
         return health;
     }
 
-    public void setPoints(int points) {
+    public void setHealth(int health) {
         this.health = health;
     }
 
