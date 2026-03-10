@@ -37,8 +37,8 @@ public class Zombie {
         this.health = this.health - healthTransferred;
         zombieFriend.setHealth(zombieFriend.getHealth() + healthTransferred);
         System.out.println(this.name + " curou o " + zombieFriend.getName());
-        System.out.println("Zumbi"+zombieFriend.getName()+ " está com " + zombieFriend.getHealth() + " de vida");
-        System.out.println("Zumbi"+ this.name + " está com " + this.health + " de vida");
+        System.out.println("Zumbi "+zombieFriend.getName()+ " está com " + zombieFriend.getHealth() + " de vida");
+        System.out.println("Zumbi "+ this.name + " está com " + this.health + " de vida");
     }
 
 
