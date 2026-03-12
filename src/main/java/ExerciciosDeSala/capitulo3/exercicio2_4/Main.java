@@ -1,4 +1,4 @@
-package ExerciciosDeSala.capitulo3.exercicio2;
+package ExerciciosDeSala.capitulo3.exercicio2_4;
 
 public class Main {
     public static void main(String[] args) {
