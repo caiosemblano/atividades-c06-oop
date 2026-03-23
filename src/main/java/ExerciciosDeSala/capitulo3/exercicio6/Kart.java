@@ -34,4 +34,28 @@ public class Kart {
     public Kart() {
         this.engine = new Engine();
     }
+
+    public Driver getDriver() {
+        return driver;
+    }
+
+    public void setDriver(Driver driver) {
+        this.driver = driver;
+    }
+
+    public void setMaxSpeed(float maxSpeed) {
+        engine.setMaxSpeed(maxSpeed);
+    }
+
+    public void setCilindradas(String cilindradas) {
+        engine.setCilindradas(cilindradas);
+    }
+
+    public String getCilindradas() {
+        return engine.getCilindradas();
+    }
+
+    public float getMaxSpeed() {
+        return engine.getMaxSpeed();
+    }
 }
