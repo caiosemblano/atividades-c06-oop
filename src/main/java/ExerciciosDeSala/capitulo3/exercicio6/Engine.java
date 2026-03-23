@@ -9,6 +9,9 @@ public class Engine{
         System.out.println("Max Speed: " + maxSpeed);
     }
 
+    public Engine() {
+    }
+
     public Engine(String cilindradas, float maxSpeed) {
         this.cilindradas = cilindradas;
         this.maxSpeed = maxSpeed;
