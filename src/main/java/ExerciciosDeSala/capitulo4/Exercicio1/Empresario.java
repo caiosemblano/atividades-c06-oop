@@ -8,4 +8,20 @@ public class Empresario {
         this.nome = nome;
         this.cnpj = cnpj;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Long getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(Long cnpj) {
+        this.cnpj = cnpj;
+    }
 }
