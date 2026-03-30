@@ -1,6 +1,13 @@
 package ExerciciosDeSala.capitulo4.Exercicio2;
 
 public class Campo {
-    protected int x = 3;
-    protected int y = 3;
+    protected boolean[][] visitado = new  boolean[3][3];
+
+    public Campo() {
+        for(int i=0; i< visitado.length; i++){
+            for(int j=0; j<visitado[0].length; j++){
+                visitado[i][j] = false;
+            }
+        }
+    }
 }
