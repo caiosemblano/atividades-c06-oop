@@ -1,4 +1,4 @@
-package ExerciciosDeSala.capitulo10;
+package ExerciciosDeSala.capitulo10e11;
 
 public class Boi extends Mamifero{
     public Boi(String nome, double vida) {

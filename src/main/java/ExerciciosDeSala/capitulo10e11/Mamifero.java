@@ -1,4 +1,4 @@
-package ExerciciosDeSala.capitulo10;
+package ExerciciosDeSala.capitulo10e11;
 
 public abstract class Mamifero {
     protected String nome;
